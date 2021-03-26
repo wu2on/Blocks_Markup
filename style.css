@@ -31,6 +31,7 @@ body {
   scroll-behavior: smooth;
   text-rendering: optimizeSpeed;
   line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
 }
 
 ul[class],
@@ -49,4 +50,29 @@ img {
 
 article > * + * {
   margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.section-1 {
+  color: #fff;
+  background-color: #de2b24;
+  text-align: center;
+}
+
+.subtitle {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+}
+
+.underline {
+  width: 47px;
+  height: 5px;
+  background-color: #fff;
+  border: 0;
 }
